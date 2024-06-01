@@ -1,0 +1,75 @@
+.dir{
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+    max-height: 200vh;
+
+}
+.dir h1{
+    margin-left: -30px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+    color: #2123a0;
+    font-size: xx-large;
+}
+
+.slider ul{
+    margin-left: 30px;
+    display: flex;
+    width: 90%;
+    height: 500px;
+    transition: 0.5s;
+    margin-bottom: 50px;
+}
+
+.slider ul li{
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+
+}
+.slide{
+    box-shadow: 0 0 20px rgba(142, 142, 142, 0.5);
+    padding: 40px;
+    border-radius: 15px;
+    color: #676767;
+    line-height: 1.4;
+}
+.slide img{
+    width: 70px;
+    border-radius: 70%;
+    margin-right: 10px;
+    border: 4px solid #2123a0;
+}
+
+.slide p{
+    color: black;
+}
+ 
+.use h3{
+    color: #2123a0;
+}
+.use p{
+    width: 50%;
+}
+
+
+@media (max-width:840px){
+.dir{
+    margin-right: 100px;
+    margin-left: -20px;
+    opacity: 0;
+    padding: 0;
+    top:400px;
+}
+.user1{
+    width: 30%;
+
+}
+.slide{
+    overflow-x: hidden;
+}
+
+
+}

@@ -1,0 +1,39 @@
+.modalContainer{
+    max-width: 700px;
+    width: 100%;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.75);
+
+}
+
+.pic{
+    height: 430px;
+    width: 400px;
+    object-fit: cover;
+
+}
+
+.content{
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+
+.content p{
+    margin-top: 10px;
+
+}
+
+.btn{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    justify-content: space-between;
+}
